@@ -1,0 +1,191 @@
+import { Vocabulary } from '../types';
+
+export const vocabularyData: Vocabulary[] = [
+  // Beginner words (basic everyday vocabulary)
+  { english: 'hello', chinese: '你好', pronunciation: 'hello', difficulty: 'beginner' },
+  { english: 'goodbye', chinese: '再见', pronunciation: 'goodbye', difficulty: 'beginner' },
+  { english: 'thank you', chinese: '谢谢', pronunciation: 'thank you', difficulty: 'beginner' },
+  { english: 'please', chinese: '请', pronunciation: 'please', difficulty: 'beginner' },
+  { english: 'sorry', chinese: '对不起', pronunciation: 'sorry', difficulty: 'beginner' },
+  { english: 'yes', chinese: '是', pronunciation: 'yes', difficulty: 'beginner' },
+  { english: 'no', chinese: '不', pronunciation: 'no', difficulty: 'beginner' },
+  { english: 'water', chinese: '水', pronunciation: 'water', difficulty: 'beginner' },
+  { english: 'food', chinese: '食物', pronunciation: 'food', difficulty: 'beginner' },
+  { english: 'house', chinese: '房子', pronunciation: 'house', difficulty: 'beginner' },
+  { english: 'car', chinese: '汽车', pronunciation: 'car', difficulty: 'beginner' },
+  { english: 'book', chinese: '书', pronunciation: 'book', difficulty: 'beginner' },
+  { english: 'good', chinese: '好', pronunciation: 'good', difficulty: 'beginner' },
+  { english: 'bad', chinese: '坏', pronunciation: 'bad', difficulty: 'beginner' },
+  { english: 'big', chinese: '大', pronunciation: 'big', difficulty: 'beginner' },
+  { english: 'small', chinese: '小', pronunciation: 'small', difficulty: 'beginner' },
+  { english: 'hot', chinese: '热', pronunciation: 'hot', difficulty: 'beginner' },
+  { english: 'cold', chinese: '冷', pronunciation: 'cold', difficulty: 'beginner' },
+  { english: 'one', chinese: '一', pronunciation: 'one', difficulty: 'beginner' },
+  { english: 'two', chinese: '二', pronunciation: 'two', difficulty: 'beginner' },
+  { english: 'three', chinese: '三', pronunciation: 'three', difficulty: 'beginner' },
+  { english: 'four', chinese: '四', pronunciation: 'four', difficulty: 'beginner' },
+  { english: 'five', chinese: '五', pronunciation: 'five', difficulty: 'beginner' },
+  { english: 'red', chinese: '红色', pronunciation: 'red', difficulty: 'beginner' },
+  { english: 'blue', chinese: '蓝色', pronunciation: 'blue', difficulty: 'beginner' },
+  { english: 'green', chinese: '绿色', pronunciation: 'green', difficulty: 'beginner' },
+  { english: 'cat', chinese: '猫', pronunciation: 'cat', difficulty: 'beginner' },
+  { english: 'dog', chinese: '狗', pronunciation: 'dog', difficulty: 'beginner' },
+  { english: 'eat', chinese: '吃', pronunciation: 'eat', difficulty: 'beginner' },
+  { english: 'drink', chinese: '喝', pronunciation: 'drink', difficulty: 'beginner' },
+  { english: 'go', chinese: '去', pronunciation: 'go', difficulty: 'beginner' },
+  { english: 'come', chinese: '来', pronunciation: 'come', difficulty: 'beginner' },
+  { english: 'have', chinese: '有', pronunciation: 'have', difficulty: 'beginner' },
+  { english: 'want', chinese: '想要', pronunciation: 'want', difficulty: 'beginner' },
+  { english: 'like', chinese: '喜欢', pronunciation: 'like', difficulty: 'beginner' },
+
+  // Intermediate words (common vocabulary and phrases)
+  { english: 'friend', chinese: '朋友', pronunciation: 'friend', difficulty: 'intermediate' },
+  { english: 'family', chinese: '家庭', pronunciation: 'family', difficulty: 'intermediate' },
+  { english: 'love', chinese: '爱', pronunciation: 'love', difficulty: 'intermediate' },
+  { english: 'happy', chinese: '快乐', pronunciation: 'happy', difficulty: 'intermediate' },
+  { english: 'sad', chinese: '悲伤', pronunciation: 'sad', difficulty: 'intermediate' },
+  { english: 'beautiful', chinese: '美丽', pronunciation: 'beautiful', difficulty: 'intermediate' },
+  { english: 'important', chinese: '重要', pronunciation: 'important', difficulty: 'intermediate' },
+  { english: 'difficult', chinese: '困难', pronunciation: 'difficult', difficulty: 'intermediate' },
+  { english: 'easy', chinese: '容易', pronunciation: 'easy', difficulty: 'intermediate' },
+  { english: 'interesting', chinese: '有趣', pronunciation: 'interesting', difficulty: 'intermediate' },
+  { english: 'school', chinese: '学校', pronunciation: 'school', difficulty: 'intermediate' },
+  { english: 'teacher', chinese: '老师', pronunciation: 'teacher', difficulty: 'intermediate' },
+  { english: 'student', chinese: '学生', pronunciation: 'student', difficulty: 'intermediate' },
+  { english: 'work', chinese: '工作', pronunciation: 'work', difficulty: 'intermediate' },
+  { english: 'company', chinese: '公司', pronunciation: 'company', difficulty: 'intermediate' },
+  { english: 'business', chinese: '商业', pronunciation: 'business', difficulty: 'intermediate' },
+  { english: 'money', chinese: '钱', pronunciation: 'money', difficulty: 'intermediate' },
+  { english: 'time', chinese: '时间', pronunciation: 'time', difficulty: 'intermediate' },
+  { english: 'today', chinese: '今天', pronunciation: 'today', difficulty: 'intermediate' },
+  { english: 'tomorrow', chinese: '明天', pronunciation: 'tomorrow', difficulty: 'intermediate' },
+  { english: 'yesterday', chinese: '昨天', pronunciation: 'yesterday', difficulty: 'intermediate' },
+  { english: 'week', chinese: '星期', pronunciation: 'week', difficulty: 'intermediate' },
+  { english: 'month', chinese: '月', pronunciation: 'month', difficulty: 'intermediate' },
+  { english: 'year', chinese: '年', pronunciation: 'year', difficulty: 'intermediate' },
+  { english: 'country', chinese: '国家', pronunciation: 'country', difficulty: 'intermediate' },
+  { english: 'city', chinese: '城市', pronunciation: 'city', difficulty: 'intermediate' },
+  { english: 'culture', chinese: '文化', pronunciation: 'culture', difficulty: 'intermediate' },
+  { english: 'language', chinese: '语言', pronunciation: 'language', difficulty: 'intermediate' },
+  { english: 'history', chinese: '历史', pronunciation: 'history', difficulty: 'intermediate' },
+  { english: 'future', chinese: '未来', pronunciation: 'future', difficulty: 'intermediate' },
+
+  // Advanced words (university-level academic vocabulary)
+  { english: 'analyze', chinese: '分析', pronunciation: 'analyze', difficulty: 'advanced' },
+  { english: 'synthesize', chinese: '综合', pronunciation: 'synthesize', difficulty: 'advanced' },
+  { english: 'hypothesis', chinese: '假设', pronunciation: 'hypothesis', difficulty: 'advanced' },
+  { english: 'methodology', chinese: '方法论', pronunciation: 'methodology', difficulty: 'advanced' },
+  { english: 'phenomenon', chinese: '现象', pronunciation: 'phenomenon', difficulty: 'advanced' },
+  { english: 'paradigm', chinese: '范式', pronunciation: 'paradigm', difficulty: 'advanced' },
+  { english: 'empirical', chinese: '经验的', pronunciation: 'empirical', difficulty: 'advanced' },
+  { english: 'theoretical', chinese: '理论的', pronunciation: 'theoretical', difficulty: 'advanced' },
+  { english: 'conceptual', chinese: '概念的', pronunciation: 'conceptual', difficulty: 'advanced' },
+  { english: 'fundamental', chinese: '基本的', pronunciation: 'fundamental', difficulty: 'advanced' },
+  { english: 'comprehensive', chinese: '全面的', pronunciation: 'comprehensive', difficulty: 'advanced' },
+  { english: 'substantial', chinese: '实质的', pronunciation: 'substantial', difficulty: 'advanced' },
+  { english: 'significant', chinese: '重要的', pronunciation: 'significant', difficulty: 'advanced' },
+  { english: 'contemporary', chinese: '当代的', pronunciation: 'contemporary', difficulty: 'advanced' },
+  { english: 'sophisticated', chinese: '复杂的', pronunciation: 'sophisticated', difficulty: 'advanced' },
+  { english: 'inevitable', chinese: '不可避免的', pronunciation: 'inevitable', difficulty: 'advanced' },
+  { english: 'ambiguous', chinese: '模糊的', pronunciation: 'ambiguous', difficulty: 'advanced' },
+  { english: 'controversial', chinese: '有争议的', pronunciation: 'controversial', difficulty: 'advanced' },
+  { english: 'perspective', chinese: '观点', pronunciation: 'perspective', difficulty: 'advanced' },
+  { english: 'interpretation', chinese: '解释', pronunciation: 'interpretation', difficulty: 'advanced' },
+  { english: 'implication', chinese: '含义', pronunciation: 'implication', difficulty: 'advanced' },
+  { english: 'consequence', chinese: '后果', pronunciation: 'consequence', difficulty: 'advanced' },
+  { english: 'correlation', chinese: '相关性', pronunciation: 'correlation', difficulty: 'advanced' },
+  { english: 'causation', chinese: '因果关系', pronunciation: 'causation', difficulty: 'advanced' },
+  { english: 'variable', chinese: '变量', pronunciation: 'variable', difficulty: 'advanced' },
+  { english: 'criterion', chinese: '标准', pronunciation: 'criterion', difficulty: 'advanced' },
+  { english: 'evaluation', chinese: '评估', pronunciation: 'evaluation', difficulty: 'advanced' },
+  { english: 'assessment', chinese: '评价', pronunciation: 'assessment', difficulty: 'advanced' },
+  { english: 'implementation', chinese: '实施', pronunciation: 'implementation', difficulty: 'advanced' },
+  { english: 'optimization', chinese: '优化', pronunciation: 'optimization', difficulty: 'advanced' },
+  { english: 'innovation', chinese: '创新', pronunciation: 'innovation', difficulty: 'advanced' },
+  { english: 'sustainability', chinese: '可持续性', pronunciation: 'sustainability', difficulty: 'advanced' },
+  { english: 'globalization', chinese: '全球化', pronunciation: 'globalization', difficulty: 'advanced' },
+  { english: 'democratization', chinese: '民主化', pronunciation: 'democratization', difficulty: 'advanced' },
+  { english: 'industrialization', chinese: '工业化', pronunciation: 'industrialization', difficulty: 'advanced' },
+  { english: 'urbanization', chinese: '城市化', pronunciation: 'urbanization', difficulty: 'advanced' },
+  { english: 'infrastructure', chinese: '基础设施', pronunciation: 'infrastructure', difficulty: 'advanced' },
+  { english: 'bureaucracy', chinese: '官僚制', pronunciation: 'bureaucracy', difficulty: 'advanced' },
+  { english: 'hierarchy', chinese: '等级制度', pronunciation: 'hierarchy', difficulty: 'advanced' },
+  { english: 'autonomy', chinese: '自主权', pronunciation: 'autonomy', difficulty: 'advanced' },
+  { english: 'sovereignty', chinese: '主权', pronunciation: 'sovereignty', difficulty: 'advanced' },
+  { english: 'legitimacy', chinese: '合法性', pronunciation: 'legitimacy', difficulty: 'advanced' },
+  { english: 'accountability', chinese: '问责制', pronunciation: 'accountability', difficulty: 'advanced' },
+  { english: 'transparency', chinese: '透明度', pronunciation: 'transparency', difficulty: 'advanced' },
+  { english: 'integrity', chinese: '诚信', pronunciation: 'integrity', difficulty: 'advanced' },
+  { english: 'authenticity', chinese: '真实性', pronunciation: 'authenticity', difficulty: 'advanced' },
+  { english: 'credibility', chinese: '可信度', pronunciation: 'credibility', difficulty: 'advanced' },
+  { english: 'reliability', chinese: '可靠性', pronunciation: 'reliability', difficulty: 'advanced' },
+  { english: 'validity', chinese: '有效性', pronunciation: 'validity', difficulty: 'advanced' },
+  { english: 'feasibility', chinese: '可行性', pronunciation: 'feasibility', difficulty: 'advanced' },
+  { english: 'compatibility', chinese: '兼容性', pronunciation: 'compatibility', difficulty: 'advanced' },
+  { english: 'versatility', chinese: '多功能性', pronunciation: 'versatility', difficulty: 'advanced' },
+  { english: 'adaptability', chinese: '适应性', pronunciation: 'adaptability', difficulty: 'advanced' },
+  { english: 'flexibility', chinese: '灵活性', pronunciation: 'flexibility', difficulty: 'advanced' },
+  { english: 'resilience', chinese: '韧性', pronunciation: 'resilience', difficulty: 'advanced' },
+  { english: 'persistence', chinese: '坚持', pronunciation: 'persistence', difficulty: 'advanced' },
+  { english: 'consistency', chinese: '一致性', pronunciation: 'consistency', difficulty: 'advanced' },
+  { english: 'coherence', chinese: '连贯性', pronunciation: 'coherence', difficulty: 'advanced' },
+  { english: 'eloquence', chinese: '雄辩', pronunciation: 'eloquence', difficulty: 'advanced' },
+  { english: 'articulation', chinese: '表达', pronunciation: 'articulation', difficulty: 'advanced' },
+  { english: 'comprehension', chinese: '理解', pronunciation: 'comprehension', difficulty: 'advanced' },
+  { english: 'perception', chinese: '感知', pronunciation: 'perception', difficulty: 'advanced' },
+  { english: 'cognition', chinese: '认知', pronunciation: 'cognition', difficulty: 'advanced' },
+  { english: 'consciousness', chinese: '意识', pronunciation: 'consciousness', difficulty: 'advanced' },
+  { english: 'subconscious', chinese: '潜意识', pronunciation: 'subconscious', difficulty: 'advanced' },
+  { english: 'intuition', chinese: '直觉', pronunciation: 'intuition', difficulty: 'advanced' },
+  { english: 'rationality', chinese: '理性', pronunciation: 'rationality', difficulty: 'advanced' },
+  { english: 'irrationality', chinese: '非理性', pronunciation: 'irrationality', difficulty: 'advanced' },
+  { english: 'objectivity', chinese: '客观性', pronunciation: 'objectivity', difficulty: 'advanced' },
+  { english: 'subjectivity', chinese: '主观性', pronunciation: 'subjectivity', difficulty: 'advanced' },
+  { english: 'relativity', chinese: '相对性', pronunciation: 'relativity', difficulty: 'advanced' },
+  { english: 'absolutism', chinese: '绝对主义', pronunciation: 'absolutism', difficulty: 'advanced' },
+  { english: 'determinism', chinese: '决定论', pronunciation: 'determinism', difficulty: 'advanced' },
+  { english: 'existentialism', chinese: '存在主义', pronunciation: 'existentialism', difficulty: 'advanced' },
+  { english: 'pragmatism', chinese: '实用主义', pronunciation: 'pragmatism', difficulty: 'advanced' },
+  { english: 'idealism', chinese: '理想主义', pronunciation: 'idealism', difficulty: 'advanced' },
+  { english: 'materialism', chinese: '唯物主义', pronunciation: 'materialism', difficulty: 'advanced' },
+  { english: 'capitalism', chinese: '资本主义', pronunciation: 'capitalism', difficulty: 'advanced' },
+  { english: 'socialism', chinese: '社会主义', pronunciation: 'socialism', difficulty: 'advanced' },
+  { english: 'nationalism', chinese: '民族主义', pronunciation: 'nationalism', difficulty: 'advanced' },
+  { english: 'internationalism', chinese: '国际主义', pronunciation: 'internationalism', difficulty: 'advanced' },
+  { english: 'multiculturalism', chinese: '多元文化主义', pronunciation: 'multiculturalism', difficulty: 'advanced' },
+  { english: 'individualism', chinese: '个人主义', pronunciation: 'individualism', difficulty: 'advanced' },
+  { english: 'collectivism', chinese: '集体主义', pronunciation: 'collectivism', difficulty: 'advanced' },
+  { english: 'liberalism', chinese: '自由主义', pronunciation: 'liberalism', difficulty: 'advanced' },
+  { english: 'conservatism', chinese: '保守主义', pronunciation: 'conservatism', difficulty: 'advanced' },
+  { english: 'progressivism', chinese: '进步主义', pronunciation: 'progressivism', difficulty: 'advanced' },
+  { english: 'traditionalism', chinese: '传统主义', pronunciation: 'traditionalism', difficulty: 'advanced' },
+  { english: 'modernism', chinese: '现代主义', pronunciation: 'modernism', difficulty: 'advanced' },
+  { english: 'postmodernism', chinese: '后现代主义', pronunciation: 'postmodernism', difficulty: 'advanced' }
+];
+
+export function getRandomWord(difficulty?: 'beginner' | 'intermediate' | 'advanced'): Vocabulary {
+  let filteredWords = vocabularyData;
+  
+  if (difficulty) {
+    filteredWords = vocabularyData.filter(word => word.difficulty === difficulty);
+  }
+  
+  const randomIndex = Math.floor(Math.random() * filteredWords.length);
+  return filteredWords[randomIndex];
+}
+
+export function generateOptions(correctAnswer: string, difficulty: 'beginner' | 'intermediate' | 'advanced' = 'beginner', optionsCount: number = 4): string[] {
+  // Filter words by difficulty for more appropriate wrong answers
+  const difficultyWords = vocabularyData.filter(word => word.difficulty === difficulty);
+  const allOptions = difficultyWords.map(word => word.chinese);
+  const incorrectOptions = allOptions.filter(option => option !== correctAnswer);
+  
+  // Shuffle and take required number of incorrect options
+  const shuffled = incorrectOptions.sort(() => Math.random() - 0.5);
+  const selectedIncorrect = shuffled.slice(0, optionsCount - 1);
+  
+  // Combine with correct answer and shuffle again
+  const options = [...selectedIncorrect, correctAnswer].sort(() => Math.random() - 0.5);
+  
+  return options;
+}
